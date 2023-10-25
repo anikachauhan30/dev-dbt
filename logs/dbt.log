@@ -1,0 +1,39 @@
+[0m20:59:38.091324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123E23BEB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123E26F4110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123E244DC10>]}
+
+
+============================== 20:59:38.091324 | 5c2842ca-3524-47fb-b609-1d4625aeacb0 ==============================
+[0m20:59:38.091324 [info ] [MainThread]: Running with dbt=1.6.6
+[0m20:59:38.091324 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\anika\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m20:59:47.624674 [debug] [MainThread]: Starter project path: c:\Users\anika\BDE\AT3\dev-dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m20:59:47.735467 [info ] [MainThread]: 
+Your new dbt project "bde" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:59:47.736330 [info ] [MainThread]: Setting up your profile.
+[0m20:59:51.070213 [debug] [MainThread]: Command `dbt init` succeeded at 20:59:51.070213 after 13.00 seconds
+[0m20:59:51.070213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123E2394A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123DB94A650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000123DB94A6D0>]}
+[0m20:59:51.070213 [debug] [MainThread]: Flushing usage events
+[0m21:05:19.939579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218CE755B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218CE9A6F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218CE756690>]}
+
+
+============================== 21:05:19.942872 | 5c7744d4-bab7-4b0a-a1eb-23efa986d8ae ==============================
+[0m21:05:19.942872 [info ] [MainThread]: Running with dbt=1.6.6
+[0m21:05:19.942872 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\anika\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug --config-dir', 'send_anonymous_usage_stats': 'True'}
+[0m21:05:19.942872 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\anika\.dbt
+[0m21:05:19.952019 [debug] [MainThread]: Command `dbt debug` succeeded at 21:05:19.951271 after 0.04 seconds
+[0m21:05:19.952574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218CEAB7950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C7BF97D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C7ED0610>]}
+[0m21:05:19.953084 [debug] [MainThread]: Flushing usage events
